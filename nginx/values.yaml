@@ -1,9 +1,2 @@
-nginx:
-  resources: 
-    requests:
-      cpu: 0.1
-      memory: 100Mi
-    limits:
-      cpu: 0.2
-      memory: 200Mi
+controller:
   replicaCount: 1
