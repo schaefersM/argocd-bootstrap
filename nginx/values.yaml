@@ -1,3 +1,7 @@
 nginx:
   controller:
     replicaCount: 1
+    resources: 
+      requests:
+        cpu: 100m
+        memory: 2Gi
